@@ -1,0 +1,7 @@
+C:\Users\nicoli.cacruz\source\repos\Locadora de VHs\Locadora de VHs\bin\Debug\Locadora de VHs.exe.config
+C:\Users\nicoli.cacruz\source\repos\Locadora de VHs\Locadora de VHs\bin\Debug\Locadora de VHs.exe
+C:\Users\nicoli.cacruz\source\repos\Locadora de VHs\Locadora de VHs\bin\Debug\Locadora de VHs.pdb
+C:\Users\nicoli.cacruz\source\repos\Locadora de VHs\Locadora de VHs\obj\Debug\Locadora de VHs.csproj.AssemblyReference.cache
+C:\Users\nicoli.cacruz\source\repos\Locadora de VHs\Locadora de VHs\obj\Debug\Locadora de VHs.csproj.CoreCompileInputs.cache
+C:\Users\nicoli.cacruz\source\repos\Locadora de VHs\Locadora de VHs\obj\Debug\Locadora de VHs.exe
+C:\Users\nicoli.cacruz\source\repos\Locadora de VHs\Locadora de VHs\obj\Debug\Locadora de VHs.pdb
