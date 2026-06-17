@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nicoli.cacruz\\source\\repos\\Locadora de VHs\\",
+  "WorkspaceRootPath": "C:\\Users\\nicoli.cacruz\\Documents\\Cadastro\\Locadora de VHs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD99EFE8-65F2-4D32-9F7F-7A4FA752DBAA}|Locadora de VHs\\Locadora de VHs.csproj|c:\\users\\nicoli.cacruz\\source\\repos\\locadora de vhs\\locadora de vhs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD99EFE8-65F2-4D32-9F7F-7A4FA752DBAA}|Locadora de VHs\\Locadora de VHs.csproj|c:\\users\\nicoli.cacruz\\documents\\cadastro\\locadora de vhs\\locadora de vhs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD99EFE8-65F2-4D32-9F7F-7A4FA752DBAA}|Locadora de VHs\\Locadora de VHs.csproj|solutionrelative:locadora de vhs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nicoli.cacruz\\source\\repos\\Locadora de VHs\\Locadora de VHs\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicoli.cacruz\\Documents\\Cadastro\\Locadora de VHs\\Locadora de VHs\\Program.cs",
               "RelativeDocumentMoniker": "Locadora de VHs\\Program.cs",
-              "ToolTip": "C:\\Users\\nicoli.cacruz\\source\\repos\\Locadora de VHs\\Locadora de VHs\\Program.cs",
+              "ToolTip": "C:\\Users\\nicoli.cacruz\\Documents\\Cadastro\\Locadora de VHs\\Locadora de VHs\\Program.cs",
               "RelativeToolTip": "Locadora de VHs\\Program.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAcwLgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwv7gAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T11:32:17.683Z",
               "EditorCaption": ""
