@@ -13,7 +13,7 @@ namespace Locadora_de_VHs
         {
             int opcao = 0;
 
-            while (opcao != 4)
+            while (opcao != 10)
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -88,39 +88,49 @@ namespace Locadora_de_VHs
                         cadastroAnimes();
                         break;
                     case 2:
-                      //  cadastroSupers();
+                        cadastroSupers();
                         break;
                     case 3:
-                     //   cadastroSeries();
+                        cadastroSeries();
                         break;
 
                     case 4:
-                      //  cadastroLocadoraVHS();
+                      cadastroLocadoraVHS();
                         break;
 
                     case 5:
-                     //   Cadastrooficinamecânica();
+                      Cadastrooficinamecânica();
                         break;
 
                     case 6:
-                      //  Cadastrolivros();
+                        Cadastrolivros();
                         break;
 
                     case 7:
-                      //  Cadastrorestaurantecardapio();
+                       Cadastrorestaurantecardapio();
                         break;
 
                     case 8:
-                        //CadastroJogos();
+                        CadastroJogos();
                         break;
 
                     case 9:
-                        //CadastroMusicas();
+                        CadastroMusicas();
                         break;
 
                     default:
                         Console.ForegroundColor = ConsoleColor.DarkRed;
-                        Console.WriteLine("\n Opção escolhida: ");
+                        Console.Clear();    
+                        Console.WriteLine(@"
+░██████╗░█████╗░██╗██████╗░
+██╔════╝██╔══██╗██║██╔══██╗
+╚█████╗░███████║██║██████╔╝
+░╚═══██╗██╔══██║██║██╔══██╗
+██████╔╝██║░░██║██║██║░░██║
+╚═════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚═╝");
+
+
+
                         Console.ResetColor();
                         Thread.Sleep(1000);
                         break;
@@ -130,7 +140,7 @@ namespace Locadora_de_VHs
         static void cadastroAnimes()
         {
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(@"
 █▀▀ ▄▀█ █▀▄ ▄▀█ █▀ ▀█▀ █▀█ █▀█   █▀▄ █▀▀   ▄▀█ █▄░█ █ █▀▄▀█ █▀▀ █▀
 █▄▄ █▀█ █▄▀ █▀█ ▄█ ░█░ █▀▄ █▄█   █▄▀ ██▄   █▀█ █░▀█ █ █░▀░█ ██▄ ▄█
@@ -157,7 +167,7 @@ namespace Locadora_de_VHs
             Console.WriteLine("\n Digite a avaliacao do anime: ");
             string avaliacaoAnime = Console.ReadLine();
         }
-          static void cadastroSupers()
+        static void cadastroSupers()
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -170,7 +180,7 @@ namespace Locadora_de_VHs
             string nomeSupers = Console.ReadLine();
 
             Console.WriteLine("\n Digite o apelido do poder: ");
-            double apelidoSupers = int.Parse(Console.ReadLine());
+            string apelidoSupers = Console.ReadLine();
 
             Console.WriteLine("\n Digite a data de nascimento: ");
             string nascimentoSupers = Console.ReadLine();
@@ -187,27 +197,160 @@ namespace Locadora_de_VHs
             Console.WriteLine("\n Digite a habilidade: ");
             string habilidadeSupers = Console.ReadLine();
 
-            Console.WriteLine("\n Digite o nome poder: ");
-            string nomeSupers = Console.ReadLine();
+                 }
+        static void cadastroSeries()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(@"
+█▀▀ ▄▀█ █▀▄ ▄▀█ █▀ ▀█▀ █▀█ █▀█   █▀▄ █▀▀   █▀ █▀▀ █▀█ █ █▀▀ █▀
+█▄▄ █▀█ █▄▀ █▀█ ▄█ ░█░ █▀▄ █▄█   █▄▀ ██▄   ▄█ ██▄ █▀▄ █ ██▄ ▄█");
 
-            Console.WriteLine("\n Digite o apelido do poder: ");
-            double apelidoSupers = int.Parse(Console.ReadLine());
+            Console.WriteLine("\n Digite o nome : ");
+            string nomeSeries = Console.ReadLine();
 
-            Console.WriteLine("\n Digite a data de nascimento: ");
-            string nascimentoSupers = Console.ReadLine();
+            Console.WriteLine("\n Digite o apelido : ");
+            string apelidoSerie = Console.ReadLine();
 
-            Console.WriteLine("\n Digite a altura : ");
-            string alturaSupers = Console.ReadLine();
-
-            Console.WriteLine("\n Digite o peso: ");
-            string pesoSupers = Console.ReadLine();
+            Console.WriteLine("\n Digite a classificacao : ");
+            string classificacaoSeries = Console.ReadLine();
 
             Console.WriteLine("\n Digite o gênero: ");
-            string gêneroSupers = Console.ReadLine();
+           string gêneroSerie = Console.ReadLine();
 
 
+        }
+        static void cadastroLocadoraVHS()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(@"
+█▀▀ ▄▀█ █▀▄ ▄▀█ █▀ ▀█▀ █▀█ █▀█   █▀▄ █▀▀   █░░ █▀█ █▀▀ ▄▀█ █▀▄ █▀█ █▀█ ▄▀█   █░█ █░█ █▀
+█▄▄ █▀█ █▄▀ █▀█ ▄█ ░█░ █▀▄ █▄█   █▄▀ ██▄   █▄▄ █▄█ █▄▄ █▀█ █▄▀ █▄█ █▀▄ █▀█   ▀▄▀ █▀█ ▄█");
+
+            Console.WriteLine("\n Digite o nome: ");
+            string nomeVhs = Console.ReadLine();
+
+            Console.WriteLine("\n Digite a data do VHs: ");
+            string dataVhs = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o codigo: ");
+            string codigoVhs = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o gênero: ");
+            string gêneroVhs = Console.ReadLine();
+
+            Console.WriteLine("\n Digite a habilidade: ");
+            string habilidadeVhs = Console.ReadLine();
+
+        }
+        static void Cadastrooficinamecânica()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(@"
+█▀▀ ▄▀█ █▀▄ ▄▀█ █▀ ▀█▀ █▀█ █▀█   █▀█ █▀▀ █ █▀▀ █ █▄░█ ▄▀█   █▀▄▀█ █▀▀ █▀▀ ▄▀█ █▄░█ █ █▀▀ ▄▀█
+█▄▄ █▀█ █▄▀ █▀█ ▄█ ░█░ █▀▄ █▄█   █▄█ █▀░ █ █▄▄ █ █░▀█ █▀█   █░▀░█ ██▄ █▄▄ █▀█ █░▀█ █ █▄▄ █▀█");
+
+            Console.WriteLine("\n Digite o nome: ");
+            string nomeOficina = Console.ReadLine();
+
+            Console.WriteLine("\n Digite a peça: ");
+            string peçaOficina = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o codigo: ");
+            string codigoOficina = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o valor: ");
+            string valorOficina = Console.ReadLine();
+
+                   }
+        static void Cadastrolivros()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(@"
+█▀▀ ▄▀█ █▀▄ ▄▀█ █▀ ▀█▀ █▀█ █▀█   █▀▄ █▀▀   █░░ █ █░█ █▀█ █▀█ █▀
+█▄▄ █▀█ █▄▀ █▀█ ▄█ ░█░ █▀▄ █▄█   █▄▀ ██▄   █▄▄ █ ▀▄▀ █▀▄ █▄█ ▄█");
+
+            Console.WriteLine("\n Digite o nome: ");
+            string nomeLivros = Console.ReadLine();
+
+            Console.WriteLine("\n Digite a data do VHs: ");
+            string dataLivros = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o codigo: ");
+            string codigoLivros = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o gênero: ");
+            string gêneroLivros = Console.ReadLine();
+
+          
+        }
+        static void Cadastrorestaurantecardapio()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(@"
+█▀▀ ▄▀█ █▀▄ ▄▀█ █▀ ▀█▀ █▀█ █▀█   █▀▄ █▀▀   █▀█ █▀▀ █▀ ▀█▀ ▄▀█ █░█ █▀█ ▄▀█ █▄░█ ▀█▀ █▀▀
+█▄▄ █▀█ █▄▀ █▀█ ▄█ ░█░ █▀▄ █▄█   █▄▀ ██▄   █▀▄ ██▄ ▄█ ░█░ █▀█ █▄█ █▀▄ █▀█ █░▀█ ░█░ ██▄");
+
+            Console.WriteLine("\n Digite o nome: ");
+            string nomeRestaurante = Console.ReadLine();
+
+            Console.WriteLine("\n Digite a data do VHs: ");
+            string mesaRestaurante = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o codigo pedido: ");
+            string codigopedidoRestaurante = Console.ReadLine();
+
+        }
+        static void CadastroJogos()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(@"
+█▀▀ ▄▀█ █▀▄ ▄▀█ █▀ ▀█▀ █▀█ █▀█   █▀▄ █▀▀   ░░█ █▀█ █▀▀ █▀█ █▀
+█▄▄ █▀█ █▄▀ █▀█ ▄█ ░█░ █▀▄ █▄█   █▄▀ ██▄   █▄█ █▄█ █▄█ █▄█ ▄█");
+
+            Console.WriteLine("\n Digite o nome: ");
+            string nomeJogos = Console.ReadLine();
+
+            Console.WriteLine("\n Digite a data dos jogos: ");
+            string dataJogos = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o codigo: ");
+            string codigoJogos = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o gênero: ");
+            string gêneroJogos = Console.ReadLine();
+
+            Console.WriteLine("\n Digite a habilidade: ");
+            string habilidadeJogos = Console.ReadLine();
 
 
+        }
+        static void CadastroMusicas()
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(@"
+█▀▀ ▄▀█ █▀▄ ▄▀█ █▀ ▀█▀ █▀█ █▀█   █▀▄ █▀▀   █▀▄▀█ █░█ █▀ █ █▀▀ ▄▀█ █▀
+█▄▄ █▀█ █▄▀ █▀█ ▄█ ░█░ █▀▄ █▄█   █▄▀ ██▄   █░▀░█ █▄█ ▄█ █ █▄▄ █▀█ ▄█");
+
+            Console.WriteLine("\n Digite o nome: ");
+            string nomeMusica = Console.ReadLine();
+
+            Console.WriteLine("\n Digite a data: ");
+            string dataMusica = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o codigo: ");
+            string codigoMusica = Console.ReadLine();
+
+            Console.WriteLine("\n Digite o gênero: ");
+            string gêneroMusica = Console.ReadLine();
+
+            
         }
     }
 }
